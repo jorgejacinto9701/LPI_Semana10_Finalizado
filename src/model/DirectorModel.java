@@ -71,7 +71,7 @@ public class DirectorModel {
 				objDirector.setIdDirector(rs.getInt(1));
 				objDirector.setNombre(rs.getString(2));
 				objDirector.setFechaNacimiento(rs.getDate(3));
-				objDirector.setFechaRegistro(rs.getDate(4));
+				objDirector.setFechaRegistro(rs.getTimestamp(4));
 				objDirector.setEstado(rs.getInt(5));
 				
 				objGrado = new Grado();
@@ -120,7 +120,7 @@ public class DirectorModel {
 				objDirector.setIdDirector(rs.getInt(1));
 				objDirector.setNombre(rs.getString(2));
 				objDirector.setFechaNacimiento(rs.getDate(3));
-				objDirector.setFechaRegistro(rs.getDate(4));
+				objDirector.setFechaRegistro(rs.getTimestamp(4));
 				objDirector.setEstado(rs.getInt(5));
 				
 				objGrado = new Grado();

@@ -142,7 +142,7 @@ public class ClubModel {
 				objClub.setIdClub(rs.getInt(1));
 				objClub.setNombre(rs.getString(2));
 				objClub.setFechaCreacion(rs.getDate(3));
-				objClub.setFechaRegistro(rs.getDate(4));
+				objClub.setFechaRegistro(rs.getTimestamp(4));
 				objClub.setEstado(rs.getInt(5));
 				
 				objPais = new Pais();
@@ -191,7 +191,7 @@ public class ClubModel {
 				objClub.setIdClub(rs.getInt(1));
 				objClub.setNombre(rs.getString(2));
 				objClub.setFechaCreacion(rs.getDate(3));
-				objClub.setFechaRegistro(rs.getDate(4));
+				objClub.setFechaRegistro(rs.getTimestamp(4));
 				objClub.setEstado(rs.getInt(5));
 				
 				objPais = new Pais();

@@ -1,13 +1,14 @@
 package entidad;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class Club {
 
 	private int idClub;
 	private String nombre;
 	private Date fechaCreacion;
-	private Date fechaRegistro;
+	private Timestamp fechaRegistro;
 	private int estado;
 	private Pais pais;
 	
@@ -29,10 +30,10 @@ public class Club {
 	public void setFechaCreacion(Date fechaCreacion) {
 		this.fechaCreacion = fechaCreacion;
 	}
-	public Date getFechaRegistro() {
+	public Timestamp getFechaRegistro() {
 		return fechaRegistro;
 	}
-	public void setFechaRegistro(Date fechaRegistro) {
+	public void setFechaRegistro(Timestamp fechaRegistro) {
 		this.fechaRegistro = fechaRegistro;
 	}
 	public int getEstado() {

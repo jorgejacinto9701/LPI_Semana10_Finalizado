@@ -1,13 +1,14 @@
 package entidad;
 
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class Director {
 
 	private int idDirector;
 	private String nombre;
 	private Date fechaNacimiento;
-	private Date fechaRegistro;
+	private Timestamp fechaRegistro;
 	private int estado;
 	private Grado grado;
 	public int getIdDirector() {
@@ -28,10 +29,10 @@ public class Director {
 	public void setFechaNacimiento(Date fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
-	public Date getFechaRegistro() {
+	public Timestamp getFechaRegistro() {
 		return fechaRegistro;
 	}
-	public void setFechaRegistro(Date fechaRegistro) {
+	public void setFechaRegistro(Timestamp fechaRegistro) {
 		this.fechaRegistro = fechaRegistro;
 	}
 	public int getEstado() {
